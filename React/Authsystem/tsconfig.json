@@ -4,10 +4,26 @@
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
   ],
-    "compilerOptions": {
+  "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@components/*": ["./components/*"],
+      "components/*": ["./components/*"],
+      "@components": ["./components"],
+      "components": ["./components"],
+      "@ui/*": ["./components/ui/*"],
+      "ui/*": ["./components/ui/*"],
+      "@ui": ["./components/ui"],
+      "ui": ["./components/ui"],
+      "@lib/*": ["./lib/*"],
+      "lib/*": ["./lib/*"],
+      "@lib": ["./lib"],
+      "lib": ["./lib"],
+      "@utils/*": ["./lib/*"],
+      "utils/*": ["./lib/*"],
+      "@utils": ["./lib/utils.ts"],
+      "utils": ["./lib/utils.ts"]
     }
   }
 }
